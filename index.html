@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body onmouseover="play()">
+    <audio src="https://mahdihat791.github.io/v2/test.mp3" id="audio"></audio>
+    <ul class="menu">
+        <a href="#home"><li class="links">Home</li></a>
+        <a href="#grid"><li class="links">Grid View</li></a>
+        <a href="#slide"><li class="links"></li></a>
+    </ul>
+    <section id="home">
+        <img src="Image.gif" class="img-responsive" width="900px" height="900px">
+    </section>
+    <section id="grid">
+        <h1>Grid Gallery</h1>
+        <div class="row">
+            <img src="Crysanthemum.jpg">
+            <img src="Desert.jpg">
+            <img src="Hydrangeas.jpg">
+            <img src="Jellyfish.jpg">
+        </div>
+        <div class="row">
+            <img src="Koala.jpg">
+            <img src="Lighthouse.jpg">
+            <img src="Penguins.jpg">
+            <img src="Tulips.jpg">
+        </div>
+    </section>
+    <section id="slide">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <centre>
+                        <img src="Crysanthemum.jpg">
+                        <div class="carousel-content">
+                            <p>Crysanthemum</p>
+                        </div>
+                    </centre>
+                </div>
+                <div class="item">
+                    <centre>
+                        <img src="Desert.jpg">
+                        <div class="carousel-content">
+                            <p>Desert</p>
+                        </div>
+                    </centre>
+                </div>
+                <div class="item">
+                    <img src="Hydrangeas.jpg">
+                    <div class="carousel-content">
+                        <p>Hydrangeas</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Jellyfish.jpg">
+                    <div class="carousel-content">
+                        <p>Jellyfish</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Koala.jpg">
+                    <div class="carousel-content">
+                        <p>Koala</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Lighthouse.jpg">
+                    <div class="carousel-content">
+                        <p>Lighthouse</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Penguins.jpg">
+                    <div class="carousel-content">
+                        <p>Penguins</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Tulips.jpg">
+                    <div class="carousel-content">
+                        <p>Tulips</p>
+                    </div>
+                </div>
+                <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="Main.js"></script>
+</body>
+
+</html>
