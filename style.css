@@ -1,10 +1,10 @@
 body {
-      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Segoe UI;
       text-align: center;
       background-color: #00FFFF;
 }
 
-.menu {
+ul {
     position: fixed;
     top: 0px;
     z-index: 10;
@@ -14,7 +14,7 @@ body {
     margin-top: 0px;
 }
 
-.links {
+li {
     color: #FF0000;
     padding-top: 5px;
     padding-left: 33px;
@@ -23,7 +23,7 @@ body {
     display: inline;
 }
 
-.links:hover {
+li:hover {
     background-color: #1E90FF;
     font-size: 25px;
     text-decoration: underline;
@@ -52,9 +52,12 @@ html {
 #span {
     margin: 10px;
 }
-.carousel-inner p{
-      margin-bottom: 15px;
-      margin-top: 15px;
-      color: #FFFFFF;
-      font-size: 20px;
+
+.image {
+    width: 1000px;
+}
+
+#gallery img {
+    width: 200px;
+    height: 150px;
 }
