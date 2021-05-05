@@ -1,7 +1,7 @@
 body {
-    font-family: "Segoe UI";
-    text-align: center;
-    background-color: cyan;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      background-color: #00FFFF;
 }
 
 .menu {
@@ -51,4 +51,10 @@ html {
 
 #span {
     margin: 10px;
+}
+.carousel-inner p{
+      margin-bottom: 15px;
+      margin-top: 15px;
+      color: #FFFFFF;
+      font-size: 20px;
 }
